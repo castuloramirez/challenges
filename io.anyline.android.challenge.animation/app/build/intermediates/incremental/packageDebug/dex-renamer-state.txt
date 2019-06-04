@@ -1,0 +1,7 @@
+#Fri Oct 20 08:47:11 CEST 2017
+base.0=D\:\\android\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ad45c092ba82b1bf83f19c6c42eb7ceccde2f02f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\android\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e102b7d050856b0f6557c36dad251811c38e219e\\classes.dex
+base.1=D\:\\android\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e102b7d050856b0f6557c36dad251811c38e219e
+file.0=D\:\\android\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ad45c092ba82b1bf83f19c6c42eb7ceccde2f02f\\classes.dex

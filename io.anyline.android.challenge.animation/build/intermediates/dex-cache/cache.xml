@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\android\io.anyline.android.challenge.animation\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7343555c1676a49a62c21d21bf281e83c255f24b">
+        <dex dex="D:\android\io.anyline.android.challenge.animation\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e102b7d050856b0f6557c36dad251811c38e219e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\io.anyline.android.challenge.animation\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\android\io.anyline.android.challenge.animation\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ad45c092ba82b1bf83f19c6c42eb7ceccde2f02f\classes.dex" />
+    </item>
+
+</items>
