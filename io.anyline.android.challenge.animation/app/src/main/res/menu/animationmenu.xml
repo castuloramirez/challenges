@@ -48,11 +48,11 @@
                 app:showAsAction="ifRoom"></item-->
             <item
                 android:id="@+id/action_horizontal"
-                android:title="direction"
+                android:title="Direction"
                 app:showAsAction="ifRoom"></item>
             <item
                 android:id="@+id/action_randon"
-                android:title="Randon"
+                android:title="Random"
                 app:showAsAction="ifRoom"></item>
         </menu>
     </item>

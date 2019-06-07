@@ -190,7 +190,7 @@ public class KnightRiderActivity extends Activity {
                 // direction(0);
                 break;
             case R.id.action_about:
-                Toast msg = Toast.makeText(this, "By Castulo Ramirez 2017", Toast.LENGTH_LONG);
+                Toast msg = Toast.makeText(this, "By Castulo Ramirez 2017"+"\n" +"Modified 2019", Toast.LENGTH_LONG);
                 msg.show();
                 break;
         }
