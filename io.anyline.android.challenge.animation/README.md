@@ -12,6 +12,6 @@ https://www.google.com/search?client=ubuntu&channel=fs&q=android+developer+studi
 
 Now you can run the project.
 
-![](https://imgur.com/a/cbK8Y26)
+![](https://i.imgur.com/GGPvs3P.png)
 
 
