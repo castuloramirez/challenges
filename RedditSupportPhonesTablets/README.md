@@ -1,4 +1,4 @@
-# Reddit Reader Supporting Phones and Tablets
+# Reddit Reader: Supporting Phones and Tablets
 
 ![](https://i.imgur.com/VRi7OWV.png)
 
