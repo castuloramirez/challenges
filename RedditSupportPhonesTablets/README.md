@@ -35,3 +35,7 @@ http://jreddit.github.io/
 
 Now you can run the project.
 
+
+### Developer
+Developed by Castulo
+
