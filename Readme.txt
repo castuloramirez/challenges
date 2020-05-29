@@ -1,1 +1,1 @@
-Testing
+Android development has gotten so complicated over the years. Actually, it seems like we are going back and filling in the gaps that were always there in the past. Sigh. Disilliusionment. Clean architecture or Architecture Components or some mix of the two? Dagger with clean architecture, what about multi module or module by feature? I guess despite the complexity, it has been a steady march toward better and brighter things. 
