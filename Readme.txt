@@ -1,2 +1,2 @@
-Android development starte to be more and more complicated. So evelution from Architecture 
+Android development started to be more and more complicated. So evolution from Architecture 
 to Archi Torture.
