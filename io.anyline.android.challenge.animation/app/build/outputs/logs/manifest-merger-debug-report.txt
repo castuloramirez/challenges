@@ -1,114 +1,184 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:2:1-37:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34e8abfc544f3cf93c83495b6e02eaea\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\73c2f369023ed25ec421cc0d247e1d77\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\479a1809d0a4294a772a73a3a48d94a9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d0d0410dc3bcd34e11eedfb7163b9ee0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\53ae625d57af0e33ab25d938bf1d883a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bd883e76eb14c49b29b790a96fd68560\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\75647314b1c9c4bf5a4b118950edd99c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7c780e8ea34b697c7db08b123fa4a825\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\44359c1a6e55b140a968644829af75ac\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dcf38d8cec470fd3888dfbe9bf8c2683\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\5bc9ed856a695e9cef5331b57a250ccd\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1181277d75df933333e9b77c392cbdf5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0de0e42f88d3093bdb45ca4f37b71a9a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8506c7ac571c0f1c48da2307a3653544\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6a0c416f21b593fb16b245a913c7d409\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bc7f5e78b133944a4f1cb781bfb3d5e7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d65597bbbf0d525c22e63734d2365fd1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d7cd01e7c172cedca1afda3cf99dd477\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a469fb22fe99a34057ee9c9c82b9a695\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\576a4dd68f6d518400ee503ecd455876\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\624cdf3365d83a5bc016a3f49ce851aa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6e0f4e475b4bb921d4f047a77dafc212\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a2d9e206853f0d5e2e12df3156a9a19b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\098774839f4f56dcfc4f48894712f484\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ec81463207e9de608a0f132a556465c6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d0a3404bf5a8b3eca9b48be281168789\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8f61cb1b0b13a82c79f949da45094ceb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e32debf5c11f0ef8f2d197d01ed62376\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\4d230ab9c6e19b66ffa480ae6fbbe3d7\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:3:5-53
-		INJECTED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
-		INJECTED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:3:5-53
+		INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
-		INJECTED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
-	android:versionCode
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
-		INJECTED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:2:11-69
-uses-sdk
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:7:5-44
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\cramirez\.android\build-cache\968f73658e996ae2fd740624347948ba19d9ff5f\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\cramirez\.android\build-cache\e022cac9b752e572814f10c67f7f9d33deba811d\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\cramirez\.android\build-cache\76479492c918e111b3be351cdcae38d661581493\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\cramirez\.android\build-cache\56c771f70c5776e08e94f39e85d772d581140bee\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\cramirez\.android\build-cache\9d2975fdf774907fdc4e617348985c172a60a7fc\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\cramirez\.android\build-cache\f0d45f3e477ac8fe0e84ae4795c49536b2651f6a\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\cramirez\.android\build-cache\dd18331257bc1a6d1f6535b6ce814c67dca032f1\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\cramirez\.android\build-cache\79a77496da5b45e48b004b1be18a6fbefc0b952b\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\cramirez\.android\build-cache\312ad5a29b91f3557806c9c6da474607bf8e2174\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\cramirez\.android\build-cache\ba04be0fb38296d51b138ea1304166d2710bf418\output\AndroidManifest.xml:21:5-23:58
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\cramirez\.android\build-cache\968f73658e996ae2fd740624347948ba19d9ff5f\output\AndroidManifest.xml:23:9-75
-	android:targetSdkVersion
-		INJECTED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
-		INJECTED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:7:15-41
-		INJECTED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
-		INJECTED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:10:5-75
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:10:5-75
 	android:name
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:10:22-72
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:10:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:11:22-77
 application
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:13:5-35:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\cramirez\.android\build-cache\968f73658e996ae2fd740624347948ba19d9ff5f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\cramirez\.android\build-cache\e022cac9b752e572814f10c67f7f9d33deba811d\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\cramirez\.android\build-cache\76479492c918e111b3be351cdcae38d661581493\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\cramirez\.android\build-cache\56c771f70c5776e08e94f39e85d772d581140bee\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\cramirez\.android\build-cache\9d2975fdf774907fdc4e617348985c172a60a7fc\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\cramirez\.android\build-cache\f0d45f3e477ac8fe0e84ae4795c49536b2651f6a\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\cramirez\.android\build-cache\dd18331257bc1a6d1f6535b6ce814c67dca032f1\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\cramirez\.android\build-cache\79a77496da5b45e48b004b1be18a6fbefc0b952b\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\cramirez\.android\build-cache\312ad5a29b91f3557806c9c6da474607bf8e2174\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\cramirez\.android\build-cache\ba04be0fb38296d51b138ea1304166d2710bf418\output\AndroidManifest.xml:29:5-20
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:13:5-35:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\73c2f369023ed25ec421cc0d247e1d77\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\73c2f369023ed25ec421cc0d247e1d77\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d7cd01e7c172cedca1afda3cf99dd477\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d7cd01e7c172cedca1afda3cf99dd477\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a469fb22fe99a34057ee9c9c82b9a695\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a469fb22fe99a34057ee9c9c82b9a695\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d7cd01e7c172cedca1afda3cf99dd477\AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:15:9-41
 	android:icon
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:14:9-38
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:14:9-38
 service#io.anyline.android.challenge.animation.BackgroundSoundService
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:16:9-18:38
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:16:9-18:38
 	android:enabled
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:18:13-35
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:18:13-35
 	android:name
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:17:13-89
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:17:13-89
 activity#io.anyline.android.challenge.animation.KnightRiderActivity
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:19:9-26:20
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:19:9-26:20
 	android:label
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:21:13-45
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:21:13-45
 	android:name
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:20:13-48
-intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:22:13-25:29
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:20:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:24:17-76
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:24:17-76
 	android:name
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:24:27-73
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:24:27-73
 activity#io.anyline.android.challenge.animation.Splash
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:27:9-34:20
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:27:9-34:20
 	android:theme
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:29:13-53
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:29:13-53
 	android:name
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:28:13-35
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:30:13-33:29
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:28:13-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:30:13-33:29
 category#android.intent.category.LAUNCHER
-ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:32:17-86
+ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:32:17-86
 	android:name
-		ADDED from D:\android\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:32:27-74
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\cramirez\.android\build-cache\968f73658e996ae2fd740624347948ba19d9ff5f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\cramirez\.android\build-cache\e022cac9b752e572814f10c67f7f9d33deba811d\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\cramirez\.android\build-cache\76479492c918e111b3be351cdcae38d661581493\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\cramirez\.android\build-cache\9d2975fdf774907fdc4e617348985c172a60a7fc\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\cramirez\.android\build-cache\f0d45f3e477ac8fe0e84ae4795c49536b2651f6a\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\cramirez\.android\build-cache\dd18331257bc1a6d1f6535b6ce814c67dca032f1\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\cramirez\.android\build-cache\79a77496da5b45e48b004b1be18a6fbefc0b952b\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\cramirez\.android\build-cache\312ad5a29b91f3557806c9c6da474607bf8e2174\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\cramirez\.android\build-cache\ba04be0fb38296d51b138ea1304166d2710bf418\output\AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\cramirez\.android\build-cache\968f73658e996ae2fd740624347948ba19d9ff5f\output\AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\cramirez\.android\build-cache\968f73658e996ae2fd740624347948ba19d9ff5f\output\AndroidManifest.xml:26:9-47
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34e8abfc544f3cf93c83495b6e02eaea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34e8abfc544f3cf93c83495b6e02eaea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\73c2f369023ed25ec421cc0d247e1d77\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\73c2f369023ed25ec421cc0d247e1d77\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\479a1809d0a4294a772a73a3a48d94a9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\479a1809d0a4294a772a73a3a48d94a9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d0d0410dc3bcd34e11eedfb7163b9ee0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d0d0410dc3bcd34e11eedfb7163b9ee0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\53ae625d57af0e33ab25d938bf1d883a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\53ae625d57af0e33ab25d938bf1d883a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bd883e76eb14c49b29b790a96fd68560\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bd883e76eb14c49b29b790a96fd68560\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\75647314b1c9c4bf5a4b118950edd99c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\75647314b1c9c4bf5a4b118950edd99c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7c780e8ea34b697c7db08b123fa4a825\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7c780e8ea34b697c7db08b123fa4a825\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\44359c1a6e55b140a968644829af75ac\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\44359c1a6e55b140a968644829af75ac\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dcf38d8cec470fd3888dfbe9bf8c2683\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dcf38d8cec470fd3888dfbe9bf8c2683\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\5bc9ed856a695e9cef5331b57a250ccd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\5bc9ed856a695e9cef5331b57a250ccd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1181277d75df933333e9b77c392cbdf5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1181277d75df933333e9b77c392cbdf5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0de0e42f88d3093bdb45ca4f37b71a9a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0de0e42f88d3093bdb45ca4f37b71a9a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8506c7ac571c0f1c48da2307a3653544\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8506c7ac571c0f1c48da2307a3653544\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6a0c416f21b593fb16b245a913c7d409\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6a0c416f21b593fb16b245a913c7d409\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bc7f5e78b133944a4f1cb781bfb3d5e7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bc7f5e78b133944a4f1cb781bfb3d5e7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d65597bbbf0d525c22e63734d2365fd1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d65597bbbf0d525c22e63734d2365fd1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d7cd01e7c172cedca1afda3cf99dd477\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d7cd01e7c172cedca1afda3cf99dd477\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a469fb22fe99a34057ee9c9c82b9a695\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a469fb22fe99a34057ee9c9c82b9a695\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\576a4dd68f6d518400ee503ecd455876\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\576a4dd68f6d518400ee503ecd455876\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\624cdf3365d83a5bc016a3f49ce851aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\624cdf3365d83a5bc016a3f49ce851aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6e0f4e475b4bb921d4f047a77dafc212\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6e0f4e475b4bb921d4f047a77dafc212\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a2d9e206853f0d5e2e12df3156a9a19b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a2d9e206853f0d5e2e12df3156a9a19b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\098774839f4f56dcfc4f48894712f484\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\098774839f4f56dcfc4f48894712f484\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ec81463207e9de608a0f132a556465c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ec81463207e9de608a0f132a556465c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d0a3404bf5a8b3eca9b48be281168789\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d0a3404bf5a8b3eca9b48be281168789\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8f61cb1b0b13a82c79f949da45094ceb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8f61cb1b0b13a82c79f949da45094ceb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e32debf5c11f0ef8f2d197d01ed62376\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e32debf5c11f0ef8f2d197d01ed62376\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\4d230ab9c6e19b66ffa480ae6fbbe3d7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\4d230ab9c6e19b66ffa480ae6fbbe3d7\AndroidManifest.xml:20:5-44
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+		ADDED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
