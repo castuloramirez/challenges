@@ -168,7 +168,7 @@ public class KnightRiderActivity extends Activity {
                 toStop();
                 break;
             case io.anyline.android.challenge.animation.R.id.action_start:
-                toStart();
+                toContinue();
                 break;
 
             case io.anyline.android.challenge.animation.R.id.action_speedup:
@@ -190,7 +190,7 @@ public class KnightRiderActivity extends Activity {
                 // direction(0);
                 break;
             case R.id.action_about:
-                Toast msg = Toast.makeText(this, "By Castulo Ramirez 2017"+"\n" +"Modified 2019", Toast.LENGTH_LONG);
+                Toast msg = Toast.makeText(this, "By Castulo Ramirez 2017" + "\n" + "Modified 2019", Toast.LENGTH_LONG);
                 msg.show();
                 break;
         }
@@ -217,14 +217,15 @@ public class KnightRiderActivity extends Activity {
     }
 
     public void toStop() {
-        for (AnimatorSet s : kittsCol) {
-            s.end();
+        for (AnimatorSet animatorSet : kittsCol) {
+            animatorSet.pause();
         }
     }
 
-    public void toStart() {
-        for (AnimatorSet s : kittsCol) {
-            s.start();
+    public void toContinue() {
+        for (AnimatorSet animatorSet : kittsCol) {
+            if (animatorSet.isPaused())
+                animatorSet.resume();
         }
     }
 
