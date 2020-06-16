@@ -21,6 +21,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Random;
 
+import io.anyline.android.challenge.animation.common.Game;
+
 public class KnightRiderActivity extends Activity {
     private ObjectAnimator animation1;
     private ObjectAnimator animation2;
@@ -32,6 +34,9 @@ public class KnightRiderActivity extends Activity {
     private Collection<ImageView> kittsImage = new ArrayList<ImageView>();
 
     private Animation oldA;
+
+    private Game game = new Game();
+
 
     private int[] imgId = {
             io.anyline.android.challenge.animation.R.id.button1,
@@ -115,7 +120,6 @@ public class KnightRiderActivity extends Activity {
     private void initAnimation() {
 
         moveKitts();
-
         // Start animating the image
         for (int i = 0; i < getKittsImage().size(); i++) {
             createAnimation(button_[i]);
@@ -126,6 +130,9 @@ public class KnightRiderActivity extends Activity {
         final AnimatorSet set = buildAnimation(button);
         final Random randon = new Random();
         set.start();
+        if (game.isGameStatusPause()){
+            set.pause();
+        }
         set.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
@@ -190,7 +197,7 @@ public class KnightRiderActivity extends Activity {
                 // direction(0);
                 break;
             case R.id.action_about:
-                Toast msg = Toast.makeText(this, "By Castulo Ramirez 2017" + "\n" + "Modified 2019", Toast.LENGTH_LONG);
+                Toast msg = Toast.makeText(this, "By Castulo Ramirez 2017" + "\n" + "Modified 2020", Toast.LENGTH_LONG);
                 msg.show();
                 break;
         }
@@ -201,6 +208,7 @@ public class KnightRiderActivity extends Activity {
         if (getKittsImage().size() > 1) {
             int i = getKittsImage().size();
             stopKitt(button_[i]);
+
             getKittsImage().remove(button_[i]);
 
             initAnimation();
@@ -219,6 +227,7 @@ public class KnightRiderActivity extends Activity {
     public void toStop() {
         for (AnimatorSet animatorSet : kittsCol) {
             animatorSet.pause();
+            game.setGameStatusPause(animatorSet.isPaused());
         }
     }
 
@@ -226,6 +235,7 @@ public class KnightRiderActivity extends Activity {
         for (AnimatorSet animatorSet : kittsCol) {
             if (animatorSet.isPaused())
                 animatorSet.resume();
+            game.setGameStatusPause(animatorSet.isPaused());
         }
     }
 
