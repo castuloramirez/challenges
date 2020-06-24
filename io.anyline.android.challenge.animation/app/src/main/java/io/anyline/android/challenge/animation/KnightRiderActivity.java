@@ -6,8 +6,12 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.AnimationDrawable;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,6 +23,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.Random;
 
 import io.anyline.android.challenge.animation.common.Game;
@@ -52,6 +57,7 @@ public class KnightRiderActivity extends Activity {
 
     private ImageView[] button_ = new ImageView[9];
 
+    private Vibrator vibrator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +90,8 @@ public class KnightRiderActivity extends Activity {
             Intent svc = new Intent(this, BackgroundSoundService.class);
             startService(svc);
         }
+
+        vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
     }
 
     private void loadImages() {
@@ -197,7 +205,7 @@ public class KnightRiderActivity extends Activity {
                 // direction(0);
                 break;
             case R.id.action_about:
-                Toast msg = Toast.makeText(this, "By Castulo Ramirez 2017" + "\n" + "Modified 2020", Toast.LENGTH_LONG);
+                Toast msg = Toast.makeText(this, "By Castulo Ramirez", Toast.LENGTH_LONG);
                 msg.show();
                 break;
         }
@@ -208,10 +216,17 @@ public class KnightRiderActivity extends Activity {
         if (getKittsImage().size() > 1) {
             int i = getKittsImage().size();
             stopKitt(button_[i]);
-
             getKittsImage().remove(button_[i]);
 
-            initAnimation();
+          //  initAnimation();   Commented 20/06/2020
+            Iterator<AnimatorSet> iter = getKittsCol().iterator();
+            if(iter.hasNext()) {
+                AnimatorSet set =  iter.next();
+                set.removeAllListeners();
+                set.end();
+                set.cancel();
+                iter.remove();
+            }
         }
     }
 
@@ -221,6 +236,11 @@ public class KnightRiderActivity extends Activity {
             getKittsImage().add(button_[i]);
             moveKitt(button_[i]);
             createAnimation(button_[i]);
+            if (Build.VERSION.SDK_INT >= 26) {
+                vibrator.vibrate(VibrationEffect.createOneShot(200, VibrationEffect.DEFAULT_AMPLITUDE));
+            } else {
+                vibrator.vibrate(200);
+            }
         }
     }
 
@@ -302,6 +322,8 @@ public class KnightRiderActivity extends Activity {
         getKittsCol().clear();
         initAnimation();
 */
+
+
     }
 
     @Override
