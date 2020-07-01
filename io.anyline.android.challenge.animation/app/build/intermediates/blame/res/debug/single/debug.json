@@ -96,6 +96,10 @@
         "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\raw\\knightrider.mp3"
     },
     {
+        "merged": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_app_bar.xml.flat",
+        "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\layout\\layout_app_bar.xml"
+    },
+    {
         "merged": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_f14.png.flat",
         "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\drawable-hdpi\\f14.png"
     },

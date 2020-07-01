@@ -835,6 +835,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
 id top
 id topPanel
 id uniform
@@ -878,6 +879,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_splash
 layout fragment_knightrider
+layout layout_app_bar
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
