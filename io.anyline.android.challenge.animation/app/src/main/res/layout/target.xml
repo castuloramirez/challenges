@@ -78,4 +78,7 @@
             android:layout_gravity="clip_horizontal"
             android:onClick="onClick" />
     </FrameLayout>
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/layout_app_bar" />
 </LinearLayout>

@@ -12,24 +12,24 @@
         "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\drawable-hdpi\\f04.png"
     },
     {
-        "merged": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\res\\merged\\debug\\menu_animationmenu.xml.flat",
-        "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\menu\\animationmenu.xml"
-    },
-    {
         "merged": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\res\\merged\\debug\\anim_appear.xml.flat",
         "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\anim\\appear.xml"
+    },
+    {
+        "merged": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\res\\merged\\debug\\menu_animationmenu.xml.flat",
+        "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\menu\\animationmenu.xml"
     },
     {
         "merged": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_f07.png.flat",
         "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\drawable-hdpi\\f07.png"
     },
     {
-        "merged": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
-        "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
-    },
-    {
         "merged": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\res\\merged\\debug\\layout_target.xml.flat",
         "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\layout\\target.xml"
+    },
+    {
+        "merged": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
     },
     {
         "merged": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_f13.png.flat",

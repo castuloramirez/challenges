@@ -25,6 +25,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -68,31 +69,29 @@ public class KnightRiderActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         // Set fullscreen
-   //     getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //     getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         // Set No Title
-     //   this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //   this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
 
         setContentView(io.anyline.android.challenge.animation.R.layout.target);
         this.getSupportActionBar().setDisplayShowHomeEnabled(true);
         this.getSupportActionBar().setIcon(R.drawable.icon);
 
-
         loadImages();
         final ImageView button = button_[0]; //first car.
-        button.setTag("Kitt's Car:"+0);
+        button.setTag("Car Number :"+0);
         getKittsImage().add(button);
-      //  getKittsImage().add(button_[1]);
-      //  getKittsImage().add(button_[2]);
+        //  getKittsImage().add(button_[1]);
+        //  getKittsImage().add(button_[2]);
 
         button_[0].setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         //createAnimation(button_[0]);
-                        DialogHelper.alertView(button.getTag()+"",KnightRiderActivity.this);
+                        DialogHelper.alertView(v.getTag()+"",KnightRiderActivity.this);
                     }
                 });
         DisplayMetrics displaymetrics = new DisplayMetrics();
@@ -177,7 +176,7 @@ public class KnightRiderActivity extends AppCompatActivity {
         Random randon = new Random();
         int nextX = randon.nextInt(width);
         int nextY = randon.nextInt(height);
-          animation1 = ObjectAnimator.ofFloat(button, "x", nextX);
+        animation1 = ObjectAnimator.ofFloat(button, "x", nextX);
         animation1.setDuration(1400);
         animation2 = ObjectAnimator.ofFloat(button, "y", nextY);
         animation2.setDuration(1400);
@@ -189,8 +188,9 @@ public class KnightRiderActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(io.anyline.android.challenge.animation.R.menu.animationmenu, menu);
-        return super.onCreateOptionsMenu(menu);
+        return true;
     }
 
     @Override
@@ -235,7 +235,7 @@ public class KnightRiderActivity extends AppCompatActivity {
             stopKitt(button_[i]);
             getKittsImage().remove(button_[i]);
 
-          //  initAnimation();   Commented 20/06/2020
+            //  initAnimation();   Commented 20/06/2020
             Iterator<AnimatorSet> iter = getKittsCol().iterator();
             if(iter.hasNext()) {
                 AnimatorSet set =  iter.next();
