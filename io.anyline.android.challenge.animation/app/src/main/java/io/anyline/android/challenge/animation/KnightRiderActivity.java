@@ -6,32 +6,49 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.AnimationDrawable;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.Random;
 
-public class KnightRiderActivity extends Activity {
+import io.anyline.android.challenge.animation.common.DialogHelper;
+import io.anyline.android.challenge.animation.common.Game;
+
+public class KnightRiderActivity extends AppCompatActivity {
     private ObjectAnimator animation1;
     private ObjectAnimator animation2;
     private int width;
     private int height;
 
-    private Collection<AnimatorSet> kittsCol = new ArrayList<AnimatorSet>();
+    private ArrayList<AnimatorSet> kittsCol = new ArrayList<AnimatorSet>();
 
-    private Collection<ImageView> kittsImage = new ArrayList<ImageView>();
+    private ArrayList<ImageView> kittsImage = new ArrayList<ImageView>();
 
     private Animation oldA;
+
+    private Game game = new Game();
+
 
     private int[] imgId = {
             io.anyline.android.challenge.animation.R.id.button1,
@@ -47,31 +64,41 @@ public class KnightRiderActivity extends Activity {
 
     private ImageView[] button_ = new ImageView[9];
 
+    private Vibrator vibrator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Set fullscreen
+        //     getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        // Set No Title
+        //   this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+
         setContentView(io.anyline.android.challenge.animation.R.layout.target);
-        this.getActionBar().setDisplayShowHomeEnabled(true);
-        this.getActionBar().setIcon(R.drawable.icon);
+        this.getSupportActionBar().setDisplayShowHomeEnabled(true);
+        this.getSupportActionBar().setIcon(R.drawable.icon);
+
         loadImages();
-        //button = button_[0]; //first car.
-        getKittsImage().add(button_[0]);
-        getKittsImage().add(button_[1]);
-        getKittsImage().add(button_[2]);
+        final ImageView button = button_[0]; //first car.
+        button.setTag("Car Number :"+0);
+        getKittsImage().add(button);
+        //  getKittsImage().add(button_[1]);
+        //  getKittsImage().add(button_[2]);
 
         button_[0].setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        createAnimation(button_[0]);
+                        //createAnimation(button_[0]);
+                        DialogHelper.alertView(v.getTag()+"",KnightRiderActivity.this);
                     }
                 });
         DisplayMetrics displaymetrics = new DisplayMetrics();
         this.getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
         width = displaymetrics.widthPixels;
         height = displaymetrics.heightPixels;
-        //randon = new Random();
+
         initAnimation();
 
         // If we have a saved state then we can restore it now
@@ -79,12 +106,14 @@ public class KnightRiderActivity extends Activity {
             Intent svc = new Intent(this, BackgroundSoundService.class);
             startService(svc);
         }
+
+        vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
     }
 
     private void loadImages() {
         Collection<Integer> col = new ArrayList<Integer>();
         for (int i = 0; i < 9; i++) {
-            button_[i] = (ImageView) findViewById(imgId[i]);
+            button_[i] =  findViewById(imgId[i]);
         }
     }
 
@@ -115,7 +144,6 @@ public class KnightRiderActivity extends Activity {
     private void initAnimation() {
 
         moveKitts();
-
         // Start animating the image
         for (int i = 0; i < getKittsImage().size(); i++) {
             createAnimation(button_[i]);
@@ -126,6 +154,9 @@ public class KnightRiderActivity extends Activity {
         final AnimatorSet set = buildAnimation(button);
         final Random randon = new Random();
         set.start();
+        if (game.isGameStatusPause()){
+            set.pause();
+        }
         set.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
@@ -157,8 +188,9 @@ public class KnightRiderActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(io.anyline.android.challenge.animation.R.menu.animationmenu, menu);
-        return super.onCreateOptionsMenu(menu);
+        return true;
     }
 
     @Override
@@ -168,7 +200,7 @@ public class KnightRiderActivity extends Activity {
                 toStop();
                 break;
             case io.anyline.android.challenge.animation.R.id.action_start:
-                toStart();
+                toContinue();
                 break;
 
             case io.anyline.android.challenge.animation.R.id.action_speedup:
@@ -190,7 +222,7 @@ public class KnightRiderActivity extends Activity {
                 // direction(0);
                 break;
             case R.id.action_about:
-                Toast msg = Toast.makeText(this, "By Castulo Ramirez 2017"+"\n" +"Modified 2019", Toast.LENGTH_LONG);
+                Toast msg = Toast.makeText(this, "By Castulo Ramirez", Toast.LENGTH_LONG);
                 msg.show();
                 break;
         }
@@ -203,7 +235,15 @@ public class KnightRiderActivity extends Activity {
             stopKitt(button_[i]);
             getKittsImage().remove(button_[i]);
 
-            initAnimation();
+            //  initAnimation();   Commented 20/06/2020
+            Iterator<AnimatorSet> iter = getKittsCol().iterator();
+            if(iter.hasNext()) {
+                AnimatorSet set =  iter.next();
+                set.removeAllListeners();
+                set.end();
+                set.cancel();
+                iter.remove();
+            }
         }
     }
 
@@ -213,18 +253,26 @@ public class KnightRiderActivity extends Activity {
             getKittsImage().add(button_[i]);
             moveKitt(button_[i]);
             createAnimation(button_[i]);
+            if (Build.VERSION.SDK_INT >= 26) {
+                vibrator.vibrate(VibrationEffect.createOneShot(200, VibrationEffect.DEFAULT_AMPLITUDE));
+            } else {
+                vibrator.vibrate(200);
+            }
         }
     }
 
     public void toStop() {
-        for (AnimatorSet s : kittsCol) {
-            s.end();
+        for (AnimatorSet animatorSet : kittsCol) {
+            animatorSet.pause();
+            game.setGameStatusPause(animatorSet.isPaused());
         }
     }
 
-    public void toStart() {
-        for (AnimatorSet s : kittsCol) {
-            s.start();
+    public void toContinue() {
+        for (AnimatorSet animatorSet : kittsCol) {
+            if (animatorSet.isPaused())
+                animatorSet.resume();
+            game.setGameStatusPause(animatorSet.isPaused());
         }
     }
 
@@ -250,7 +298,7 @@ public class KnightRiderActivity extends Activity {
         return kittsCol;
     }
 
-    public void setKittsCol(Collection<AnimatorSet> kittsCol) {
+    public void setKittsCol(ArrayList<AnimatorSet> kittsCol) {
         this.kittsCol = kittsCol;
     }
 
@@ -261,11 +309,11 @@ public class KnightRiderActivity extends Activity {
         super.onDestroy();
     }
 
-    public Collection<ImageView> getKittsImage() {
+    public ArrayList<ImageView> getKittsImage() {
         return kittsImage;
     }
 
-    public void setKittsImage(Collection<ImageView> kittsImage) {
+    public void setKittsImage(ArrayList<ImageView> kittsImage) {
         this.kittsImage = kittsImage;
     }
 
@@ -290,7 +338,9 @@ public class KnightRiderActivity extends Activity {
         }
         getKittsCol().clear();
         initAnimation();
+
 */
+
     }
 
     @Override

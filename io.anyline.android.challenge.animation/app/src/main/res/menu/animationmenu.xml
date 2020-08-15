@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".KnightRiderActivity">
+
+    <item
+        android:id="@+id/action_notification1"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title=""
+        app:showAsAction="always">
+<menu>
+
     <item
         android:id="@+id/action_kitt"
         android:title="Kitt Status"
@@ -79,6 +89,9 @@
         android:title="About"
         app:showAsAction="ifRoom"/>
 
+
+</menu>
+    </item>
     <!--item
         android:id="@+id/action_rotate"
         android:title="Rotate"

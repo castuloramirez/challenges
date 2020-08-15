@@ -4,7 +4,7 @@
             "outputFile": "D:\\castulo\\testing\\challenges\\io.anyline.android.challenge.animation\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\34e8abfc544f3cf93c83495b6e02eaea\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\4c1e222132d7c6df463bbb7b701f43ab\\appcompat-1.0.0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

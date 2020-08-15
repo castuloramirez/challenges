@@ -21,7 +21,6 @@ public class BackgroundSoundService extends Service {
         player = MediaPlayer.create(this, io.anyline.android.challenge.animation.R.raw.knightrider);
         player.setLooping(true); // Set looping
         player.setVolume(100, 100);
-
     }
 
     public int onStartCommand(Intent intent, int flags, int startId) {

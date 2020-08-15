@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-<!--fragment
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <!--fragment
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:name="io.anyline.android.challenge.animation.KnightRiderFragment"
     android:id="@+id/knightRiderFragment"/-->
-    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
 
         <ImageView
             android:id="@+id/button2"
             android:layout_width="116dp"
             android:layout_height="64dp"
             android:layout_gravity="center"
-            android:onClick="onClick"
-            />
+            android:onClick="onClick" />
 
         <ImageView
             android:id="@+id/button3"
             android:layout_width="116dp"
             android:layout_height="64dp"
             android:layout_gravity="center_vertical"
-            android:onClick="onClick"
-            />
+            android:onClick="onClick" />
 
 
         <ImageView
@@ -34,16 +33,14 @@
             android:layout_width="116dp"
             android:layout_height="64dp"
             android:layout_gravity="top|center"
-            android:onClick="onClick"
-            />
+            android:onClick="onClick" />
 
         <ImageView
             android:id="@+id/button7"
             android:layout_width="116dp"
             android:layout_height="64dp"
             android:layout_gravity="top|right"
-            android:onClick="onClick"
-            />
+            android:onClick="onClick" />
 
 
         <ImageView
@@ -51,24 +48,21 @@
             android:layout_width="116dp"
             android:layout_height="64dp"
             android:layout_gravity="right|center"
-            android:onClick="onClick"
-            />
+            android:onClick="onClick" />
 
         <ImageView
             android:id="@+id/button4"
             android:layout_width="116dp"
             android:layout_height="64dp"
             android:layout_gravity="bottom|right"
-            android:onClick="onClick"
-            />
+            android:onClick="onClick" />
 
         <ImageView
             android:id="@+id/button9"
             android:layout_width="116dp"
             android:layout_height="64dp"
             android:layout_gravity="bottom|left"
-            android:onClick="onClick"
-            />
+            android:onClick="onClick" />
 
         <ImageView
             android:id="@+id/button1"
@@ -84,4 +78,7 @@
             android:layout_gravity="clip_horizontal"
             android:onClick="onClick" />
     </FrameLayout>
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/layout_app_bar" />
 </LinearLayout>

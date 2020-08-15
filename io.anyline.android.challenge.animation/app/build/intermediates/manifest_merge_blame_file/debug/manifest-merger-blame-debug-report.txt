@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.anyline.android.challenge.animation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:9:5-81
+11-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:9:22-78
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:10:5-75
+12-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:10:22-72
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:11:5-80
+13-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:11:22-77
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:12:5-65
+14-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:12:22-63
+15
+16    <application
+16-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:14:5-37:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f88df7c86cbc989e82020e686162bad6\core-1.0.0\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@drawable/icon"
+20-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:15:9-38
+21        android:label="@string/app_name"
+21-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:16:9-41
+22        android:testOnly="true"
+23        android:theme="@style/Theme.AppCompat" >
+23-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:17:9-47
+24        <service
+24-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:18:9-20:38
+25            android:name="io.anyline.android.challenge.animation.BackgroundSoundService"
+25-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:19:13-89
+26            android:enabled="true" />
+26-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:20:13-35
+27
+28        <activity
+28-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:21:9-28:20
+29            android:name="io.anyline.android.challenge.animation.KnightRiderActivity"
+29-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:22:13-48
+30            android:label="@string/app_name" >
+30-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:23:13-45
+31            <intent-filter>
+31-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:24:13-27:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:25:17-69
+32-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.DEFAULT" />
+34-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:26:17-76
+34-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:26:27-73
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:29:9-36:20
+38            android:name="io.anyline.android.challenge.animation.Splash"
+38-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:30:13-35
+39            android:theme="@style/Theme.Transparent" >
+39-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:31:13-53
+40            <intent-filter>
+40-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:32:13-35:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:25:17-69
+41-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:25:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:34:17-86
+43-->D:\castulo\testing\challenges\io.anyline.android.challenge.animation\app\src\main\AndroidManifest.xml:34:27-74
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>
